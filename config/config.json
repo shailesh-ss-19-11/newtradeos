@@ -1,0 +1,76 @@
+{
+  "symbols": {
+    "equity": [
+      "NSE:RELIANCE-EQ", "NSE:TCS-EQ", "NSE:HDFCBANK-EQ",
+      "NSE:INFY-EQ", "NSE:ICICIBANK-EQ", "NSE:HINDUNILVR-EQ",
+      "NSE:ITC-EQ", "NSE:KOTAKBANK-EQ", "NSE:BHARTIARTL-EQ",
+      "NSE:SBIN-EQ", "NSE:BAJFINANCE-EQ", "NSE:WIPRO-EQ",
+      "NSE:AXISBANK-EQ", "NSE:ASIANPAINT-EQ", "NSE:MARUTI-EQ",
+      "NSE:TATAMOTORS-EQ", "NSE:TATASTEEL-EQ", "NSE:TECHM-EQ",
+      "NSE:SUNPHARMA-EQ", "NSE:TITAN-EQ",
+      "NSE:ADANIENT-EQ", "NSE:ADANIPORTS-EQ",
+      "NSE:BAJAJ-AUTO-EQ", "NSE:BAJAJFINSV-EQ",
+      "NSE:BPCL-EQ", "NSE:BRITANNIA-EQ",
+      "NSE:CIPLA-EQ", "NSE:COALINDIA-EQ",
+      "NSE:DRREDDY-EQ", "NSE:EICHERMOT-EQ",
+      "NSE:GRASIM-EQ", "NSE:HCLTECH-EQ",
+      "NSE:HEROMOTOCO-EQ", "NSE:HINDALCO-EQ",
+      "NSE:INDUSINDBK-EQ", "NSE:JSWSTEEL-EQ",
+      "NSE:LT-EQ", "NSE:M&M-EQ",
+      "NSE:NESTLEIND-EQ", "NSE:NTPC-EQ",
+      "NSE:ONGC-EQ", "NSE:POWERGRID-EQ",
+      "NSE:SBILIFE-EQ", "NSE:TATACONSUM-EQ",
+      "NSE:ULTRACEMCO-EQ", "NSE:UPL-EQ",
+      "NSE:DIVISLAB-EQ", "NSE:HAVELLS-EQ",
+      "NSE:IDFCFIRSTB-EQ", "NSE:INDIGO-EQ",
+      "NSE:IOC-EQ", "NSE:LTIM-EQ",
+      "NSE:LUPIN-EQ", "NSE:MARICO-EQ",
+      "NSE:PFC-EQ", "NSE:PIDILITIND-EQ",
+      "NSE:POLYCAB-EQ", "NSE:REC-EQ",
+      "NSE:TATAPOWER-EQ", "NSE:TORNTPHARM-EQ",
+      "NSE:VEDL-EQ", "NSE:VOLTAS-EQ",
+      "NSE:ZOMATO-EQ", "NSE:DLF-EQ",
+      "NSE:GODREJCP-EQ", "NSE:BANKBARODA-EQ",
+      "NSE:PNB-EQ", "NSE:CHOLAFIN-EQ",
+      "NSE:COLPAL-EQ", "NSE:PAGEIND-EQ",
+      "NSE:SIEMENS-EQ", "NSE:JUBLFOOD-EQ",
+      "NSE:SAIL-EQ", "NSE:NMDC-EQ",
+      "NSE:MPHASIS-EQ", "NSE:LTTS-EQ",
+      "NSE:INFOEDGE-EQ", "NSE:TRENT-EQ",
+      "NSE:MANAPPURAM-EQ", "NSE:AUROPHARMA-EQ",
+      "NSE:BANDHANBNK-EQ", "NSE:CONCOR-EQ",
+      "NSE:SHREECEM-EQ", "NSE:UBL-EQ"
+    ],
+    "indices": ["NSE:NIFTY50-INDEX", "NSE:NIFTYBANK-INDEX"],
+    "options_underlying": ["NSE:NIFTY50-INDEX", "NSE:NIFTYBANK-INDEX"]
+  },
+  "trading": {
+    "accountBalance": 100000,
+    "maxRiskPerTrade": 0.01,
+    "maxCapitalPerTrade": 0.20,
+    "minStrategiesConfirmed": 7,
+    "minStrategiesVolatile": 8,
+    "minRiskReward": 2.5,
+    "minVolRatio": 1.5,
+    "maxActiveTrades": 3,
+    "maxDailyLoss": 0.03
+  },
+  "market": {
+    "timezone": "Asia/Kolkata",
+    "openTime": "09:15",
+    "closeTime": "15:30",
+    "signalCutoffTime": "15:20",
+    "preMarketTime": "09:00"
+  },
+  "scanning": {
+    "intervalMinutes": 5,
+    "timeframe": "15",
+    "multiTimeframe": ["5", "15", "60"]
+  },
+  "fyers": {
+    "exchangeNSE": "NSE",
+    "exchangeBSE": "BSE",
+    "dateFormat": "1",
+    "contFlag": "1"
+  }
+}
